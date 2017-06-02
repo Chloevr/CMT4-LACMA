@@ -1,14 +1,16 @@
 body {
   font-family: 'Open Sans', sans-serif;
   width: 90%;
-  margin: 25px auto;
+  margin: 10px auto;
+  background-color: white;
 }
 
 section {
   margin: 25px 0;
-  margin-bottom: 5em;
-  border: 1px solid black;
+  margin-bottom: 1em;
+  border: 3px solid grey;
   padding: 2em;
+  background-color: white;
 }
 
 img {
@@ -22,7 +24,7 @@ p {
 }
 
 h1{
-  font-size: 5em;
+  font-size: 3em;
   padding-bottom: 1em;
 }
 
