@@ -18,3 +18,13 @@ app.use(require("./routes/categorieen_router"));
 app.listen(app.get('port'), function() {
   console.log('Node luistert op poort', app.get('port'));
 });
+
+$("#jquery-search-sample").jsearch();
+
+$("#jquery-search-sample").jsearch({
+  rowClass: '.jsearch-row',
+  fieldClass: '.jsearch-field',
+  minLength: 3,
+  triggers: 'keyup',
+  caseSensitive: false,
+});
